@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1 {
+            color: rgb(103, 103, 255);
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        hr {
+            height: 15px;
+            background-color: cornflowerblue;
+
+        }
+    </style>
+</head>
+
+
+<h1 align="center">Student Registration Form</h1>
+<fieldset>
+    <form align="center">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" maxlength="30">
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" maxlength="30">
+        <br>
+        <br>
+        <label>Date of Birth:</label>
+        <select name="day">
+            <option>Day</option>
+
+        </select>
+        <select name="month">
+            <option>Month</option>
+
+        </select>
+        <select name="year">
+            <option>Year</option>
+            <br>
+        </select>
+
+        <br>
+        <br>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="mobile">Mobile Number:</label>
+        <input type="number" id="mobile" name="mobile" maxlength="10">
+        <br>
+        <br>
+
+        <label>Gender:</label>
+        <div class="gender">
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <br>
+</fieldset>
+
+<br>
+<fieldset align="center">
+
+    <label>Address</label>
+
+    <textarea id="address" name="address" rows="4" cols="40">
+            </textarea>
+    <br>
+    <br>
+    <label for="city">City :</label>
+    <input type="text" id="fname" name="fname" maxlength="30">
+    <br>
+    <br>
+    <label for="city">Pin Code :</label>
+    <input type="number" id="pin" name="pin" maxlength="30">
+    <br>
+    <br>
+    <label for="State">State :</label>
+    <input type="text" id="state" name="state" maxlength="30">
+    <br>
+    <br>
+    <label for="Country">Country :</label>
+    <input type="text" id="Country" name="Country" maxlength="30" placeholder="India">
+    <br>
+    <br>
+    <label for="hobbies">Hobbies :</label>
+    <input type="text" id="hobies" name="hobies" maxlength="30">
+    <br>
+    <br>
+    <div class="hobbies">
+        Drawing<input type="checkbox" name="hobies" value="drawing">
+        Singing<input type="checkbox" name="hobbies" value="Singing">
+        Dancing<input type="checkbox" name="hobbies" value="Dancing">
+        Sketching<input type="checkbox" name="hobbies" value="Sketching">
+    </div>
+    <input type="text">
+
+    <br>
+</fieldset>
+
+<br>
+<fieldset align="center">
+
+    <label>Qualifications:</label>
+    <table border="1" width="100%" style="background-color: white; color: black;">
+        <tr>
+            <th>Sl. No</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Class XI</td>
+            <td><input type="text" name="board1" maxlength="10"></td>
+            <td><input type="text" name="percentage1" maxlength="5"></td>
+            <td><input type="text" name="year1" maxlength="4"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text" name="board2" maxlength="10"></td>
+            <td><input type="text" name="percentage2" maxlength="5"></td>
+            <td><input type="text" name="year2" maxlength="4"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text" name="board3" maxlength="10"></td>
+            <td><input type="text" name="percentage3" maxlength="5"></td>
+            <td><input type="text" name="year3" maxlength="4"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Masters</td>
+            <td><input type="text" name="board4" maxlength="10"></td>
+            <td><input type="text" name="percentage4" maxlength="5"></td>
+            <td><input type="text" name="year4" maxlength="4"></td>
+        </tr>
+    </table>
+
+    <div class="courses">
+        <p align="left">Courses Applied For:</p>
+
+        BCA<input type="radio" name="course" value="bca">
+        B.Com<input type="radio" name="course" value="bcom">
+        B.Sc<input type="radio" name="course" value="bsc">
+        B.A<input type="radio" name="course" value="ba">
+    </div>
+
+    <div class="buttons">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+
+    </form>
+</fieldset>
+<hr>
+<fieldset>
+    <label for="class">1. Class X :</label>
+    <input type="text" id="fname" name="fname" maxlength="30"> <input type="text" id="fname" name="fname"
+        maxlength="30"> <input type="text" id="fname" name="fname" maxlength="30">
+    <br>
+    <br>
+    <label for="class">2. Class XII :</label>
+    <input type="text" id="fname" name="class" maxlength="30"> <input type="text" id="fname" name="fname"
+        maxlength="30"> <input type="text" id="fname" name="fname" maxlength="30">
+    <br>
+    <br>
+    <label for="Graduation">3. Graduation :</label>
+    <input type="text" id="fname" name="graduation" maxlength="30"> <input type="text" id="fname" name="graduation"
+        maxlength="30"> <input type="text" id="fname" name="graduation" maxlength="30">
+    <br>
+    <br>
+    <label for="Masters">4. Masters :</label>
+    <input type="text" id="masters" name="master" maxlength="30"> <input type="text" id="fname" name="graduation"
+        maxlength="30"> <input type="text" id="fname" name="masteers" maxlength="30">
+</fieldset>
+</body>
+
+</html>
